@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Lab 3</title>
+        <meta charset="UTF-8">
+       
+        <link rel="stylesheet" type="text/css" href ="css/main.css" /> 
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>Student Management System</h1>
+        <h2>Name&emsp;&emsp;&emsp;&emsp;&emsp;
+            Major&emsp;&emsp;&emsp;&emsp;&emsp;
+            Start Year</h2>
+         <input type ="text" id="name" />
+         <select id="program_id">
+             <option value="1">Information Technology</option>
+             <option value="2">Information Systems</option>
+             <option value="3">Data Science/ Informatics</option>
+         </select> 
+        <input type="text" id="start_year" />
+        
+        <button id="btnAdd">Add Record</button>
+        <br>
+        <span id="status"></span>
+        <br><br>
+        <h2>Students in Database</h2>
+        <br>
+        <button id="btnReload">Reload All Student Records</button>
+        <br>
+        <ul id="records"></ul>
+        
+    </body>
+</html>

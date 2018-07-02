@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017. 3. 9, 오전 9:20:36
+    Author     : geun
+*/
+#title {
+    background-color: beige;
+    font-size: xx-large;
+}
+#GrNames {
+    background-color: brown;
+    font-size: x-large;
+}
+img {
+    width: 50%;
+    height: auto;
+}
+h1 {
+    font-style: italic;
+}
+
+button {
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-size: 16px;
+}

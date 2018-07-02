@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+By: Joseph Pantano, Geun Joen, and Amit Hadad
+-->
+<html>
+    <head>
+        <title>Project</title>
+        <meta charset="UTF-8">
+		
+        <link rel="stylesheet" type="text/css" href ="main.css" /> 
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        
+        
+        <br>
+		
+		<!--
+        add Picture
+        -->
+        <h2>Add Picture (use URL)</h2>
+        <input type="text" id="picture" />
+        <button id="addPicture">Add Picture</button>
+        <br>
+        <span id="status1"></span>
+        <br>
+        <img src="" id="loadPicture" />
+		
+		<!--
+		Add Album
+		-->
+		<h2>Add Album</h2>
+        <input type="text" id="name" />
+        <button id="addAlbum">Add Album</button>
+        <br>
+        <span id="status"></span>
+        
+		<!--
+        Show Pictures 
+        -->
+        <h2>Show all Pictures: </h2>
+        <button id="showPictures">Show All Pictures</button>
+        <br>
+        <ul id="pictureRecords"></ul>
+        <img src="" id="loadAllPicture" />
+		
+        <!--
+        Show Album 
+        -->
+        <h2>Show all Albums: </h2>
+        <button id="showAlbum">Show Album</button>
+        <br>
+        <ul id="albumRecords"></ul>		
+		
+		 <!--
+        add Comments
+        -->
+        <h2>Add Comments</h2>
+        <input type="text" id="comments" />
+        <button id="addComments">Add Comment</button>
+        <br>
+        <span id="status2"></span>
+        
+        <!--
+        Show Comments 
+        -->
+        <h2>Show all Comments: </h2>
+        <button id="showComments">Show Comments</button>
+        <br>
+        <ul id="commentRecords"></ul>
+		
+        <!--
+        Delete picture
+        -->
+        <h2>Select Picture ID to delete</h2>
+        <input type="text" id="picture_id" />
+        <button id="deletePicture">Delete Picture</button>
+        <br>
+        <span id="pictureStatus"></span>
+		
+        <!--
+        delete Album
+        -->
+        <h2>Enter Album ID to delete</h2>
+        <input type="text" id="albumId" />
+        <button id ="deleteAlbum">Delete</button>
+        <br>
+        <span id="albumStatus"></span>
+                
+        <!--
+        delete comments
+        -->
+        <h2>Delete Comments (use comment ID)</h2>
+        <input type="text" id="comments_id" />
+        <button id="deleteComments">Delete Comment</button>
+        <br>
+        <span id="commentsStatus"></span>
+        
+		<br>
+		<form action="https://www.cs.drexel.edu/~gj65/Project/Project_Goals.html">
+    <input type="submit" value="Project Goals"/>
+	
+    </body>
+</html>

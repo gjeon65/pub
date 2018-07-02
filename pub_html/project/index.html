@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Project</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href ="main.css" /> 
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body bgcolor="#16E6FA">
+        <!--
+        Album Section
+        adding name
+        show span
+        -->
+        <div class="intro">
+            <p id="title">INFO-152-A</p>
+            <p id="GrNames">Geun, Joseph, Amit</p>
+        </div>
+        <h1>Album </h1>
+        
+        <input type="text" id="name" size="35" />
+        <button id="addAlbum">Add Album</button>
+        <br>
+        <span id="status"></span>
+        
+        <!--
+        Show Album 
+        -->
+        <h1>Show all Albums: </h1>
+        <button id="showAlbum">Show Album</button>
+        <br>
+        <ul id="albumRecords"></ul>
+        
+        <!--
+        delete Album
+        -->
+        <h1>Select ID number to delete</h1>
+        <input type="text" id="albumId" />
+        <button id ="deleteAlbum">Delete</button>
+        <br>
+        <span id="albumStatus"></span>
+        
+        
+        <!--
+        add Album
+        -->
+        <h1>Adding Pictures (URL)</h1>
+        <input type="text" id="picture" size="35" />
+        <button id="addPicture">Add Picture</button>
+        <br>
+        <span id="status1"></span>
+        <br>
+        <img src="" id="loadPicture" />
+        
+        
+                <!--
+        Show Pictures 
+        -->
+        <h1>Show all Pictures: </h1>
+        <button id="showPictures">Show All Pictures</button>
+        <br>
+        <ul id="pictureRecords"></ul>
+        <img src="" id="loadAllPicture" />
+        
+        
+        <!--
+        delete picture
+        -->
+        <h1>Select Picture ID to delete</h1>
+        <input type="text" id="picture_id" />
+        <button id="deletePicture">Delete Picture</button>
+        <br>
+        <span id="pictureStatus"></span>
+        
+        <!--
+        add Comments
+        -->
+        <h1>Add Comments</h1>
+        <input type="text" id="comments" size="35" />
+        <button id="addComments">Add Comment</button>
+        <br>
+        <span id="status2"></span>
+        
+        <!--
+        Show Comments 
+        -->
+        <h1>Show all Comments: </h1>
+        <button id="showComments">Show Comments</button>
+        <br>
+        <ul id="commentRecords"></ul>
+        
+        
+        
+        <!--
+        delete comments
+        -->
+        <h1>Delete Comments (use comment ID)</h1>
+        <input type="text" id="comments_id" />
+        <button id="deleteComments">Delete Comment</button>
+        <br>
+        <span id="commentsStatus"></span>
+        
+    </body>
+</html>
